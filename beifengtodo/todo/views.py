@@ -8,4 +8,3 @@ def index(request):
 def getTodo(request,todoid):
     print todoid
     return render(request,'base.html',locals())
-
